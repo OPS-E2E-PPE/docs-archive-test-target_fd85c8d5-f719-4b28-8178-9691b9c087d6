@@ -1,17 +1,55 @@
 {
   "build": {
     "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md"
+        ],
+        "src": "."
+      }
     ],
     "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ],
+        "src": "."
+      }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "Standard"
+      "feedback_system": "Standard",
+      "breadcrumb_path": "/DocsE2EArchiveTarget/breadcrumb/E2EArchiveTarget_1fc4b07b-338e-4fed-bd70-9c4732dd8e68/toc.json",
+      "extendBreadcrumb": true,
+      "docs_archive": "tool",
+      "uhfHeaderId": "MSDocsHeader-Archive"
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "archive-template",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "dest": "archive-template"
   }
 }
