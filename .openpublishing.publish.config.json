@@ -1,5 +1,21 @@
 {
-  "docsets_to_publish": [],
+  "docsets_to_publish": [
+    {
+      "docset_name": "E2EArchiveTarget_1fc4b07b-338e-4fed-bd70-9c4732dd8e68",
+      "build_source_folder": "archiveTargetFolder",
+      "build_output_subfolder": "E2EArchiveTarget_1fc4b07b-338e-4fed-bd70-9c4732dd8e68",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "base_path": "/DocsE2EArchiveTarget",
+      "site_name": "Docs"
+    }
+  ],
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
